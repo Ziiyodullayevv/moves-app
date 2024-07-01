@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "antd": "^5.18.3",
+    "moment": "^2.30.1"
+  }
+}
