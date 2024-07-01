@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { message } from "antd";
 
 const Login = () => {
   const history = useHistory();
-  const [show, setShow] = useState(false);
 
   // Login:
   const [formData, setFormData] = useState({

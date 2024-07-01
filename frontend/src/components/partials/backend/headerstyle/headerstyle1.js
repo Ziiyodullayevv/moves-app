@@ -20,6 +20,8 @@ const HeaderStyle1 = (props) => {
     localStorage.removeItem("user");
     history.push("/login");
   };
+
+  const user = JSON.parse(localStorage.getItem("user"));
   return (
     <>
       <header id="main-header">
@@ -263,8 +265,7 @@ const HeaderStyle1 = (props) => {
                             }}
                           >
                             <span style={{ color: "white", fontSize: "16px" }}>
-                              {localStorage.getItem("user").user?.firstName ||
-                                "Anonymous"}
+                              {user.firstName || "Anonymous"}
                             </span>
                             <span style={{ width: "40px" }}>
                               <svg
