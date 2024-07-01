@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { message } from "antd";
 
 // rtl
@@ -24,7 +24,6 @@ const mapDispatchToProps = (dispatch) => ({
 
 const Login = (props) => {
   const history = useHistory();
-  const location = useLocation();
   const [show, setShow] = useState(false);
 
   useEffect(() => {

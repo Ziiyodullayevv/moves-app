@@ -11,7 +11,6 @@ import logo from "../../../../assets/images/logo.png";
 import thumb1 from "../../../../assets/images/notify/thumb-1.jpg";
 import thumb2 from "../../../../assets/images/notify/thumb-2.jpg";
 import thumb3 from "../../../../assets/images/notify/thumb-3.jpg";
-import user from "../../../../assets/icons/user.svg";
 
 const HeaderStyle1 = (props) => {
   const history = useHistory();
